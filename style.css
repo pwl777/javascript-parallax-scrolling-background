@@ -1,0 +1,48 @@
+/* ------ CSS3 - Parallax Scrolling Background ------ */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --color-primary: #ffd700; /* rgba(255, 215, 0, 1)  */
+  --color-secondary: #fff;
+}
+html {
+  /* 62.5% of 16px = 10px */
+  font-size: 62.5%;
+}
+body {
+  font-family: "Londrina Solid", cursive; /* font-family: 'Codystar', cursive; |  font-family: "Londrina Solid", cursive;   */
+  background: black;
+}
+#container {
+  position: absolute;
+  width: 800px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 25px;
+  text-align: center;
+  z-index: -10;
+}
+#canvas1 {
+  position: relative;
+  width: 800px;
+  height: 700px;
+}
+#slider {
+  width: 100%;
+}
+p {
+  color: var(--color-secondary);
+}
+#title1 {
+  font-style: 400;
+  font-size: 6.5rem;
+  text-align: center;
+  margin-top: 10px;
+  color: var(--color-secondary);
+  filter: drop-shadow(-1px 6px 3px rgba(200, 200, 200, 0.75));
+  user-select: none;
+}
